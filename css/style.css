@@ -688,34 +688,34 @@ h1 {
 }
 @keyframes spin {
 	0% {
-		content: "creative";
+		content: "creatividad / creativity";
 	}
 	10% {
-		content: "think";
+		content: "pensar / thinking";
 	}
 	20% {
-		content: "understand";
+		content: "comprender / understand";
 	}
 	30% {
-		content: "listen";
+		content: "escuchar / listening";
 	}
 	40% {
-		content: "focus";
+		content: "enfocar / focus";
 	}
 	50% {
-		content: "fast";
+		content: "colaborar / colaborate";
 	}
 	60% {
-		content: "hardwork";
+		content: "participativo / participative";
 	}
 	70% {
-		content: "idea";
+		content: "centrado en el planeta / planet centered";
 	}
 	80% {
-		content: "future";
+		content: "empatia / empathic";
 	}
 	90% {
-		content: "and";
+		content: "sistémico / systemic";
 	}
 }
 
