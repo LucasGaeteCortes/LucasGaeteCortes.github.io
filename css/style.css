@@ -644,6 +644,7 @@ h1 {
 	font-weight: 400;
 	color: #feac43;
 	text-align: center;
+	margin: 0 auto;
 }
 /* social media */
 
@@ -1031,7 +1032,7 @@ h1 {
     width: 2px;
     background: #d7a150;
     position: absolute;
-    left: 30%;
+    left: 50%;
     margin-top: 50px;
 }
 p.project {
