@@ -20,6 +20,7 @@
 
    
     // Menu Click Open
+    document.addEventListener("touchstart", function() {}, true);
     $('#toggle').on('click',function() {
         $(this).toggleClass('active');
         $('#overlay').toggleClass('open');
