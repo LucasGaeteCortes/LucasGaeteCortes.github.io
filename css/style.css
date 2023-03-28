@@ -204,7 +204,7 @@ h1 {
 }
 
 .btn-link:hover{
-    color: #d7a150;
+    color: #50d7d7;
     border-radius: 0;
     border: 1px solid;
     outline-color: rgba(255, 255, 255, 0);
@@ -399,12 +399,12 @@ h1 {
   .cursor-dot {
     width: 8px;
     height: 8px;
-    background-color: #feac43;
+    background-color: #43fedf;
   }
   .cursor-dot-outline {
     width: 40px;
     height: 40px;
-    background-color: rgba(254, 172, 67, 0.5);
+    background-color: rgba(67, 254, 238, 0.5);
   }
 
 
@@ -427,6 +427,8 @@ h1 {
 	background-repeat: no-repeat;
     background-origin: border-box;
     background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -447,9 +449,10 @@ h1 {
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	background-color: #161616;
-    background-image: url('../img/home-bg.jpg');
+	background-color: #16161600;
+    background-image: url('../img/home-bg.png');
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .inner-page.\personal{
 	background: none;
@@ -594,7 +597,7 @@ h1 {
 	position: fixed;
     top: 4%;
     width: 150px;
-    height: 30px;
+    height: 35px;
     background: url('../img/logo.png');
 	left: 5%;
     z-index: 99;
@@ -642,7 +645,7 @@ h1 {
 	letter-spacing: 2px;
 	font-size: 16px;
 	font-weight: 400;
-	color: #feac43;
+	color: #43fefe;
 	width: 100%;
 	transform: translate(-15%, -50%);
 
@@ -905,11 +908,11 @@ h1 {
 	margin-top: -60px;
 	font-size: 40px;
 	font-weight: 900;
-	color: #d7a150;
+	color: #50d7d7;
 	text-decoration: none;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: linear-gradient(to right, #feac43, #feac43 50%, #fff 50%);
+	background-image: linear-gradient(to right, #43fee5, #43fee5 50%, #fff 50%);
 	background-size: 200% 100%;
 	background-position: 100%;
 	-webkit-transition: all 0.3s cubic-bezier(0, 0, 0.23, 1);
@@ -1096,7 +1099,7 @@ ul.prev-nex-btn {
 	  letter-spacing: 2px;
   }
   .title-about h2 span {
-	  color: #feac43;
+	  color: #42f8e0;
   }
 
   .about .table {
@@ -1121,7 +1124,7 @@ ul.prev-nex-btn {
 
 ul.list-services li {
     display: block;
-    color: #807b7b;
+    color: #acb8b7;
     font-size: 13px;
     font-weight: 500;
     font-style: normal;
@@ -1150,7 +1153,7 @@ ul.list-services {
 	text-align: left;
 }
 .ww-content:hover{
-    background: #feac43;
+    background: #013c41;
     border-bottom: 3px solid #111111;
 }
 .icon {
@@ -1201,5 +1204,5 @@ ul.list-services {
 .footer i.fas {
     margin: 20px 0;
 	font-size: 18px;
-	color: #feac43;
+	color: #43feee;
 }
