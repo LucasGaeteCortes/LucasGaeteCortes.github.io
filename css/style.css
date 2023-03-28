@@ -1121,16 +1121,16 @@ ul.prev-nex-btn {
 
 ul.list-services li {
     display: block;
-    text-transform: uppercase;
     color: #807b7b;
     font-size: 13px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
-    line-height: 2.73;
+    line-height: 1.5;
     letter-spacing: 1.1px;
     word-spacing: 2px;
     margin: 0;
+	width: auto;
 }
 ul.list-services {
     list-style: none;
