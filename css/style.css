@@ -684,7 +684,7 @@ h1 {
 /* Title animation */
 .spin:after {
 	content: "";
-	animation: spin 5s linear infinite;
+	animation: spin 10s linear infinite;
 }
 @keyframes spin {
 	0% {
