@@ -643,8 +643,9 @@ h1 {
 	font-size: 16px;
 	font-weight: 400;
 	color: #feac43;
-	text-align: center;
-	margin: 0 auto;
+	width: 100%;
+	transform: translate(-15%, -50%);
+
 }
 /* social media */
 
