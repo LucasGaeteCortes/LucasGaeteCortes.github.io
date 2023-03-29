@@ -693,10 +693,10 @@ h1 {
 }
 @keyframes spin {
 	0% {
-		content: "creatividad";
+		content: "comunicar";
 	}
 	10% {
-		content: "pensar";
+		content: "observar";
 	}
 	20% {
 		content: "comprender";
