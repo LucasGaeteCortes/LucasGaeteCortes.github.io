@@ -906,8 +906,8 @@ h1 {
 #zoom-fade {
 	position: absolute;
 	margin-top: -60px;
-	font-size: 40px;
-	font-weight: 900;
+	font-size: 30px;
+	font-weight: 600;
 	color: #50d7d7;
 	text-decoration: none;
 	-webkit-background-clip: text;
@@ -920,6 +920,8 @@ h1 {
 	-moz-transition: all 0.3s cubic-bezier(0, 0, 0.23, 1);
 	transition: all 0.3s cubic-bezier(0, 0, 0.23, 1);
 }
+
+
 #zoom-fade:hover {
 	background-position: 0%;
 }
@@ -1094,6 +1096,7 @@ ul.prev-nex-btn {
   }
 
   .title-about h2{
+	padding: 20px 0;
 	  font-weight: 400;
 	  font-size: 30px;
 	  line-height: 50px;
@@ -1166,15 +1169,14 @@ ul.list-services {
 }
 .client  {
 	background:rgba(0, 0, 0, .1);
-	padding: 30px;
-	height: 150px;
-	width: fit-content;
-
+	padding: 60px;
+	height: 80px;
+	width: 2000px;
+	display:table-cell;
+	vertical-align: middle;
 }
 
-.client img{
-	width: 100%;
-}
+
 
 .email {
 	padding: 200px 0 100px 0;
@@ -1227,4 +1229,14 @@ ul.list-services {
 }
 .col-md-6 .title-about h2.align-center { 
 	text-align: center;
+}
+
+
+.email #zoom-fade {
+	position: relative;
+	display: block;
+	line-height: 50px;
+	margin-top: 20px;
+	left: 0;
+	color: #FFF;
 }
