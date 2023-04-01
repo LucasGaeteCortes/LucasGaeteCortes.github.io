@@ -1219,7 +1219,7 @@ ul.list-services {
   margin-bottom: 55px;
 }
   
-  h2 {
+  h2:not(.align-left) {
 	text-align: center; /* Alinea el texto a la derecha */
   }
   .col-md-6 .title-about h2.align-left { 
