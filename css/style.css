@@ -1046,6 +1046,7 @@ p.project {
 }
 .bg-main {
 	background: #161616;
+	padding: 0;
 }
 .bg-white{
     background: #fff;
@@ -1167,9 +1168,8 @@ ul.list-services {
 	background:rgba(0, 0, 0, .1);
 	padding: 30px;
 	height: 150px;
-	width: 300px;
-	display: table-cell;
-	vertical-align: middle;
+	width: fit-content;
+
 }
 
 .client img{
@@ -1205,7 +1205,6 @@ ul.list-services {
     margin: 20px 0;
 	font-size: 18px;
 	color: #43feee;
-	align-items: center;
 }
 .col-md-6 {
 	display: flex;
@@ -1224,7 +1223,7 @@ ul.list-services {
 	text-align: left; /* Alinea el texto a la derecha */
   }
   .col-md-6 .title-about h2.align-left { 
-	text-align: left;
+	text-align: left !important;
 }
 .col-md-6 .title-about h2.align-center { 
 	text-align: center;
