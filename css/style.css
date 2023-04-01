@@ -1220,5 +1220,7 @@ ul.list-services {
 }
   
   h2 {
-	text-align: left; /* Alinea el texto a la derecha */
+	text-align: center; /* Alinea el texto a la derecha */
   }
+  .col-md-6 .title-about h2.align-left { 
+	text-align: left !important;
