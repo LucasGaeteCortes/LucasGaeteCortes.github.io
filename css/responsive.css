@@ -129,7 +129,7 @@
         display: none;
     }
 
-    .img-obj-1, .img-obj-2, .img-obj-3, .img-obj-4, .img-obj-5,.img-obj-6{
+    .img-obj-1, .img-obj-2, .img-obj-3, .img-obj-4, .img-obj-5,.img-obj-6, .img-obj-7{
         width: 70%;
         height: 70%;
         left: 15% !important;
@@ -160,7 +160,7 @@
         padding-right: 20px;
     }
     .about .bg-white, .about .bg-main {
-        padding-left: 30px 0;
+        padding: 30px 0;
     }
     .about h2 {
         font-size: 18px;
