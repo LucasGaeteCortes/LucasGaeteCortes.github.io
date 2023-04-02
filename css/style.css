@@ -1087,7 +1087,7 @@ p.project {
 }
 .mt-full {
 	margin-top: 100vh;
-	min-width: 100%;
+	min-width: 100vh;
 }
 .web-detail {
 	padding: 100px 0 40px 0;
@@ -1108,6 +1108,8 @@ p.project {
 	right: 0;
 	max-height: 100%; /* hará que la imagen se ajuste proporcionalmente al tamaño de su contenedor */
 	max-width: 100%;
+	min-width: 100%;
+	min-height: fit-content;
   }
 ul.prev-nex-btn {
     padding: 0;
