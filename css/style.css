@@ -1059,7 +1059,7 @@ h1 {
     content: '';
     height: 40px;
     width: 2px;
-    background: #d7a150;
+    background: #50d798;
     position: absolute;
     left: 50%;
     margin-top: 50px;
@@ -1072,6 +1072,7 @@ p.project {
 .bg-main {
 	background: #161616;
 	padding: 0;
+	background-size: cover;
 }
 .bg-white{
     background: #fff;
@@ -1086,6 +1087,7 @@ p.project {
 }
 .mt-full {
 	margin-top: 100vh;
+	min-width: 100%;
 }
 .web-detail {
 	padding: 100px 0 40px 0;
@@ -1093,7 +1095,20 @@ p.project {
 .image-work{
     margin-top: 30px;
 	width: 100%;
+	min-height: 100vh;
+    position: relative;
+	object-fit: cover;
 }
+
+  .image-work img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-height: 100%; /* hará que la imagen se ajuste proporcionalmente al tamaño de su contenedor */
+	max-width: 100%;
+  }
 ul.prev-nex-btn {
     padding: 0;
 }
