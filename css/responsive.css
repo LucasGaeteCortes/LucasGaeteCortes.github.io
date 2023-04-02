@@ -93,19 +93,18 @@
     /* ==============================
                 [ 02 Work ]
        ============================== */
-       .title-work {
+    .row .col-md-8{
+        position: unset;
+    }
+    .title-work {
         position: absolute;
         width: 90%;
         left: 5%;
-        bottom: 1%;
-        padding: 10px;
+        bottom: 15%;
+        padding: 30px;
         border: 1px solid #fff;
         background: rgba(0, 0, 0, .5);
     }
-       .row .col-md-8{
-        position: unset;
-    }
- 
     .work-nav {
         display: none;
     }
@@ -130,7 +129,7 @@
         display: none;
     }
 
-    .img-obj-1, .img-obj-2, .img-obj-3, .img-obj-4, .img-obj-5,.img-obj-6, .img-obj-7{
+    .img-obj-1, .img-obj-2, .img-obj-3, .img-obj-4, .img-obj-5,.img-obj-6{
         width: 70%;
         height: 70%;
         left: 15% !important;
@@ -183,12 +182,12 @@
 } */
 
 @media (max-width: 1199.98px) {
-    /* Reglas CSS existentes */
     h1 {
         font-size: 40px;
         letter-spacing: 3px;
     }
     *, *:before, *:after {
+        
         cursor: auto;
     }
     .cursor-dot-outline{
@@ -196,10 +195,5 @@
     }
     .cursor-dot{
         display: none;
-    }
-    
-    /* Nueva regla CSS para ajustar la página about */
-    .about {
-        overflow-x: hidden;
     }
 }
