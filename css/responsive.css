@@ -183,12 +183,12 @@
 } */
 
 @media (max-width: 1199.98px) {
+    /* Reglas CSS existentes */
     h1 {
         font-size: 40px;
         letter-spacing: 3px;
     }
     *, *:before, *:after {
-        
         cursor: auto;
     }
     .cursor-dot-outline{
@@ -197,8 +197,9 @@
     .cursor-dot{
         display: none;
     }
-}
-.about .container {
-    max-width: 100% ;
-    padding: 0;
+    
+    /* Nueva regla CSS para ajustar la página about */
+    .about {
+        overflow-x: hidden;
+    }
 }
