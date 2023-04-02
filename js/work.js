@@ -29,7 +29,7 @@
         direction: 'vertical',
         verticalCentered: true,
         sectionsColor: [],
-        anchors:  ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
+        anchors:  ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
         scrollingSpeed: 700,
         easing: 'swing',
         loopBottom: true,
@@ -45,7 +45,7 @@
     
         //events
         onLeave: function(index, nextIndex, direction){
-            var indexNumber= [1, 2, 3, 4, 5, 6];
+            var indexNumber= [1, 2, 3, 4, 5, 6, 7];
             for(var i = 0; i < indexNumber.length; i++) {
                 if(indexNumber){
                     $('.title-work').removeClass('animated fadeInUp delay-0.5s');
@@ -66,7 +66,7 @@
     });
     
     // Parallax setup on works
-    var scene = ['#--1', '#--2', '#--3', '#--4', '#--5', '#--6'];
+    var scene = ['#--1', '#--2', '#--3', '#--4', '#--5', '#--6', '#--7'];
     var sceneSelector = document.querySelectorAll(".layer .prx");
     for(var i = 0; i < scene.length; i++) {
         scene[i] = new Parallax(sceneSelector[i],{
