@@ -93,18 +93,19 @@
     /* ==============================
                 [ 02 Work ]
        ============================== */
-    .row .col-md-8{
-        position: unset;
-    }
-    .title-work {
+       .title-work {
         position: absolute;
         width: 90%;
         left: 5%;
-        bottom: 15%;
-        padding: 30px;
+        bottom: 1%;
+        padding: 10px;
         border: 1px solid #fff;
         background: rgba(0, 0, 0, .5);
     }
+       .row .col-md-8{
+        position: unset;
+    }
+ 
     .work-nav {
         display: none;
     }

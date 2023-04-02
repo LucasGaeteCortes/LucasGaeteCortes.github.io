@@ -872,7 +872,7 @@ h1 {
 	background: url('../img/works/7.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: center;
 }
 .img-obj-7{
 	width: 50%;
@@ -885,7 +885,16 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-.title-work {
+
+	.title-work {
+        position: absolute;
+        width: 80%;
+        left: -10%;
+        bottom: 15%;
+        padding: 100px;
+        border: 1px solid #fff;
+        background: rgba(0, 0, 0, .5);
+    
 	opacity: 0;
 	transition: all ease-in-out 2s;
 }
@@ -945,15 +954,7 @@ h1 {
 #zoom-fade:hover {
 	background-position: 0%;
 }
-.sub {
-	background: url('../img/works/work-sub.png') no-repeat left center;
-	padding-left: 30px;
-	background-size: contain;
-	color: #fff;
-	opacity: .7;
-	font-weight: 500;
-	letter-spacing: 1px;
-}
+
 .title-work {
 	position: absolute;
 }
