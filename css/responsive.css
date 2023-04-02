@@ -199,13 +199,6 @@
     }
 }
 .about .container {
-    max-width: 100%;
+    max-width: 100% ;
     padding: 0;
-}
-.title-about h2{
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
