@@ -1091,12 +1091,7 @@ p.project {
 	padding: 100px 0 40px 0;
 }
 .image-work{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	object-fit: contain;
+	margin-top: 30px;
 }
 ul.prev-nex-btn {
     padding: 0;
