@@ -984,36 +984,53 @@ h1 {
 ========================================== */
 
 .btn-back {
-    position: fixed;
-	top: 5%;
-	right: 5%;
-    z-index: 10;
-    color: #fff;
-    
-}
-.btn-back a.txt {
-    padding-right: 40px;
-    font-weight: 400;
+	position: fixed;
+	top: 1%;
+	right: 1%;
+	z-index: 10;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding-top: 15px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 40px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+  }
+  
+  .btn-back a.txt {
+	width: 100%;
+	font-weight: 400;
 	font-size: 14px;
 	letter-spacing: 1px;
-    line-height: 24px;
-    color: #fff
-}
-.btn-back  span{
-    top: 0;
-    margin-top: -2px;
-    opacity: .7;
-    position: absolute;
-    right: 0;
-    transition: all 100ms ease-in-out;
-}
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+  }
+  
+  .btn-back span {
+	margin-left: auto;
+	opacity: .5;
+	transition: all 100ms ease-in-out;
+	width: 30px;
+	transform-origin: center center;
+  }
+  
+  .btn-back:hover span {
+	opacity: 1;
+	transform: rotate(90deg);
+  }
+  
 
-.btn-back:hover span {
-    opacity: 1;
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-}
+
+
+
+
+
+
+
+
  .m-each {
      padding: 50px 0;
  }
@@ -1096,16 +1113,39 @@ p.project {
 ul.prev-nex-btn {
     padding: 0;
 }
-.prev-nex-btn li {
-    display: inline-block;
-    margin: 0 10px;
-}
+.prev-nex-btn {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .prev-nex-btn li {
+	display: inline-block;
+  }
+  
+  .prev-nex-btn li a {
+	display: block;
+	padding: 30px;
+  }
+  
+  .prev {
+	order: 1;
+  }
+  
+  .next {
+	order: 2;
+  }
 .prev-nex-btn li a {
     color: #fff;
     font-weight: 300;
-	font-size: 12px;
+	font-size: 16px;
 	letter-spacing: 1px;
-	line-height: 24px;
+	line-height: 12px;
+	background-color: rgba(0,0,0,0.5); /* Agrega un fondo negro con transparencia al 30% */
+	border-radius: 10px;
+
 }
 
 
