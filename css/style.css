@@ -1026,7 +1026,7 @@ h1 {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: url('../img/work-detail/1.jpg') center center;
+	background: url('../img/work-detail-ecoexistir/1.png') center center;
 	z-index: -3;
 	background-size: cover;
 }
@@ -1091,7 +1091,7 @@ p.project {
 	padding: 100px 0 40px 0;
 }
 .image-work{
-	margin-top: 30px;
+	margin-top: 0px;
 }
 ul.prev-nex-btn {
     padding: 0;
